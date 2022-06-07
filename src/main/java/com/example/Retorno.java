@@ -25,7 +25,7 @@ public class Retorno {
                 apellido_retornado = String.valueOf(Character.toUpperCase(primera_letra));
             }
             else{
-                char letra = apellido.charAt(x);
+                char letra = apellido.charAt(y);
                 apellido_retornado = String.format(apellido_retornado + String.valueOf(Character.toLowerCase(letra)));
 
             }
